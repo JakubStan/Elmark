@@ -1,0 +1,23 @@
+@import "../../styles/style.scss"; 
+
+#services{
+   
+
+    p{
+        color: $gray;
+        text-align: justify;
+    
+    }
+
+    .CompanyLogos{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 100px;
+    }
+    
+}

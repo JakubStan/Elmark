@@ -1,0 +1,15 @@
+@import "../../styles/style.scss"; 
+
+#phones{
+    
+    #SmartPhones{
+        width: auto;
+        height: 400px;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,73 @@
+@import "~bootstrap/scss/bootstrap";
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sevillana&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+.ServiveName{
+    display: flex;
+    align-items: center;   
+}
+
+svg{
+    color:  $gold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.details{
+    margin-top: 30px;
+}
+
+.section-space{
+    margin-bottom: 100px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#contact{
+    margin-bottom: -10px;
+    iframe{
+        width: 100%;
+        height: 350px;
+    }
+}
+
+
+.brands{
+    height: 50px;
+    width: auto;
+}
+

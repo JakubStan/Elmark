@@ -1,0 +1,66 @@
+@import "../../styles/style.scss"; 
+
+
+footer{ 
+    background-color: $gray;
+    color: white;    
+
+    .container{
+        padding: 20px 0px;
+
+        img{
+            width: 150px;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            padding-top: 30px;
+
+            li{
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;    
+                
+                .svg-inline--fa{
+                    color: $gold;
+                    margin-right: 10px;
+                }
+
+                svg{
+                    color: $gold;
+                    margin-right: 10px;
+                }
+
+                p{
+                   margin-bottom: 0px;
+                   font-size: 15px;
+                }
+
+                a{
+                    &:hover{
+                        color: $gold;
+                    }
+                }
+            }
+
+            
+        }
+
+
+       .footer-bottom{
+        text-align: center;
+        margin: 20px 0px;
+
+        h5{
+        font-size: 13px;
+        margin-bottom: 0px;
+        }
+       } 
+
+    }
+
+ 
+
+}

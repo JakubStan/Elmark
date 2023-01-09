@@ -1,0 +1,71 @@
+@import "../../styles/style.scss"; 
+
+
+header{ 
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: $gray;
+    
+    .navbar{
+        
+               
+    
+        .me-auto {
+            margin-right: 0px !important;
+        }
+    
+        #basic-navbar-nav {    
+            justify-content: end;
+          }
+   
+          .dropdown-menu.show {
+            position: absolute;
+            border-radius: 0px;
+            top: 87px;
+            background-color: $gray;
+            border: 0px;
+            
+            .dropdown-item{
+                color: white;
+
+                &:hover{
+                    background-color: $gold;
+                }
+            }
+          }
+    
+        .nav-link{
+            color: white;
+            position: relative;
+            display: block;
+            padding: 10px 20px !important;            
+            margin: 20px;
+            font-weight: 800;
+            font-size: 20px;        
+            &:hover{
+                background-color: $gold;
+                border-radius: 20px;
+            }            
+            }
+          
+            .navbar-nav {
+                .show {
+                    >.nav-link {
+                        color: white;
+                    }
+                }
+                .nav-link.active {
+                    color: white;
+                }
+            }
+            
+    
+        img{
+            width: 250px;
+        }
+    }
+}
