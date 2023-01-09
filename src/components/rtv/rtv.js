@@ -7,7 +7,7 @@ import Samsung from "../img/Samsung.png";
 import Lg from "../img/Lg.png";
 import Sony from "../img/Sony.png";
 import xiaomi from "../img/xiaomi.png";
-import philips from "../img/philips.png";
+import philips from "../img/Philips.png";
 import JBL from "../img/JBL.png";
 
 import { FiMonitor } from "react-icons/fi";
