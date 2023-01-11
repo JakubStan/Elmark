@@ -15,6 +15,7 @@ import TV from "./components/tv/tv";
 import Monitoring from "./components/monitoring/monitoring";
 import Consoles from "./components/consoles/consoles";
 import CarAudio from "./components/caraudio/caraudio";
+import Contact from "./components/contact/contact";
 import Map from "./components/map/map";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
       <Phonecard />
       <Services />
       <CreditCards />
+      <Contact />
       <Map />
       <Footer />
     </>

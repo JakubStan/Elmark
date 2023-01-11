@@ -3,10 +3,11 @@
 
 footer{ 
     background-color: $gray;
-    color: white;    
+    color: white;   
+    padding-bottom: 20px; 
 
     .container{
-        padding: 20px 0px;
+        padding-top: 40px;
 
         img{
             width: 150px;
@@ -52,6 +53,14 @@ footer{
        .footer-bottom{
         text-align: center;
         margin: 20px 0px;
+        svg{
+            margin: 0px;
+        }
+
+        .col-sm-6{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
 
         h5{
         font-size: 13px;
