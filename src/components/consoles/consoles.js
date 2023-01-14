@@ -20,11 +20,12 @@ const Consoles = () => {
           <div className="ServiveName">
             <GiConsoleController />
             <h3>
-              Bogaty wybór konsol,akcesoriów oraz gier - skup sprzedaż wymiana
+              Bogaty wybór konsol,akcesoriów oraz gier - skup sprzedaż oraz
+              wymiana
             </h3>
           </div>
 
-          <Row className="details flex-center">
+          <Row className="details">
             <Col sm={4} className="center">
               <img src={PlayStation} className="brands" alt=" PlayStation" />
             </Col>

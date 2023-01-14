@@ -58,7 +58,7 @@ const Contact = () => {
               <Form.Control
                 type="let"
                 name="user_number"
-                placeholder="Numer Telefonu"
+                placeholder="Numer telefonu"
                 required
               />
             </Form.Group>

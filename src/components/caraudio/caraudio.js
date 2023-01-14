@@ -11,6 +11,8 @@ import pioneer from "../img/pioneer.png";
 
 import { AiFillCar } from "react-icons/ai";
 
+import "./caraudio.scss";
+
 const Consoles = () => {
   return (
     <>
@@ -23,24 +25,24 @@ const Consoles = () => {
             <AiFillCar />
             <h3>
               Rejestratory, Nawigacje, radia samochodowe, radia cb, głośniki,
-              wzmacniacze.
+              wzmacniacze
             </h3>
           </div>
 
-          <Row className="details flex-center">
-            <Col className="center">
+          <Row className="details">
+            <Col className="center" sm={4}>
               <img src={mio} className="brands" alt="Mio" />
             </Col>
-            <Col className="center">
+            <Col className="center" sm={4}>
               <img src={tomtom} className="brands" alt="Tomtom" />
             </Col>
-            <Col className="center">
+            <Col className="center" sm={4}>
               <img src={president} className="brands" alt="President" />
             </Col>
-            <Col className="center">
+            <Col className="center" sm={6}>
               <img src={garmin} className="brands" alt="Garmin" />
             </Col>
-            <Col className="center">
+            <Col className="center" sm={6}>
               <img src={pioneer} className="brands" alt="Pioneer" />
             </Col>
           </Row>

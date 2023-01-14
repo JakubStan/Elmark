@@ -17,7 +17,7 @@ const TV = () => {
     <>
       <div id="tv" className="section-space">
         <Container>
-          <h2>Telewizja</h2>
+          <h2>TELEWIZJA</h2>
           <hr></hr>
 
           <div className="ServiveName">
@@ -27,23 +27,23 @@ const TV = () => {
             </h3>
           </div>
 
-          <Row className="details flex-center ">
-            <Col sm={2} className="center">
+          <Row className="details ">
+            <Col sm={4} className="center">
               <img src={TELMOR} className="brands" alt="TELMOR" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={Ferguson} className="brands" alt="Ferguson" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={Technisat} className="brands" alt="Technisat" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={Opticum} className="brands" alt="Opticum" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={Inverto} className="brands" alt="Inverto" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={NC} className="brands" alt="NC+" />
             </Col>
           </Row>

@@ -1,4 +1,5 @@
-@import "../../styles/style.scss"; 
+@import "../../styles/index"; 
+
 
 
 header{ 
@@ -9,9 +10,24 @@ header{
     right: 0;
     z-index: 2;
     background-color: $gray;
+
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+        border: 1px solid gold;
+      }
     
     .navbar{
         
+
+        .navbar-toggler-icon {     
+            background-image: url("../img/svg.svg") ;      
+        }
+
+        
+        @include for-Large-devices {
+            justify-content: space-between;              
+        } 
                
     
         .me-auto {
@@ -20,9 +36,16 @@ header{
     
         #basic-navbar-nav {    
             justify-content: end;
-          }
+            
+            @include for-Medium-devices {
+                justify-content: center;
+                display: flex; 
+                flex-basis: auto;
+                flex-grow: 0;               
+            }            
+        }
    
-          .dropdown-menu.show {
+        .dropdown-menu.show {
             position: absolute;
             border-radius: 0px;
             top: 87px;
@@ -36,7 +59,7 @@ header{
                     background-color: $gold;
                 }
             }
-          }
+        }
     
         .nav-link{
             color: white;
@@ -49,23 +72,84 @@ header{
             &:hover{
                 background-color: $gold;
                 border-radius: 20px;
-            }            
             }
-          
-            .navbar-nav {
-                .show {
-                    >.nav-link {
-                        color: white;
-                    }
-                }
-                .nav-link.active {
-                    color: white;
-                }
+            @include for-Extra-Small-devices {
+              text-align: center;
+              font-weight: 600;
+              margin: 12px;
             }
             
-    
+            @include for-Small-devices {
+                text-align: center;
+                font-weight: 600;
+                margin: 12px;
+            }
+            
+            @include for-Medium-devices {
+                padding: 10px 20px !important;            
+                margin: 5px;
+                font-weight: 700;
+                font-size: 15px; 
+            }
+            @include for-Large-devices {
+                font-weight: 700;
+                font-size: 15px;
+                margin: 0px;              
+            }  
+        }
+          
+        .navbar-nav {
+
+            @include for-Medium-devices {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .show {
+                >.nav-link {
+                        color: white;
+            }
+            
+        }
+            .nav-link.active {
+                color: white;
+            }
+     
+        }
+                
         img{
-            width: 250px;
+            width: 200px;
+            
+            @include for-Extra-Small-devices{
+                width: 130px;
+            }
+
+            @include for-Small-devices{
+                width: 160px;
+            }
+
+            @include for-Medium-devices{     
+                width: 130px;                  
+            }
+
+            @include for-Large-devices {
+                width: 130px;               
+            }
+            
+        }
+
+        .navbar-brand{
+            @include for-Medium-devices{ 
+                margin-right: 0px !important;    
+             }
+        }
+
+        .navbar-toggler {
+            color: $gold;
+            border: $gold;
+            @include for-Medium-devices {                
+                display: none;                
+            }
         }
     }
 }

@@ -1,0 +1,51 @@
+@import "./mixins";
+
+
+a{
+    text-decoration: none !important;    
+}
+
+h2{
+    font-size: 50px;
+    color: $gray;
+    font-weight: 600 !important;
+
+    @include for-Extra-Small-devices{
+        font-size: 30px !important;
+        text-align: center;        
+    }
+
+    @include for-Small-devices {
+        font-size: 32px !important;
+        text-align: left;
+    }  
+}
+h3{
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+    @include for-Extra-Small-devices{
+        text-align: center;   
+      
+    }
+
+    @include for-Small-devices{           
+
+        text-align: center;
+    }
+
+
+}
+
+p{
+    text-align: justify;
+    @include for-Extra-Small-devices{
+        font-size: 20px;
+    }
+
+    @include for-Small-devices {
+        font-size: 20px;
+    }
+}

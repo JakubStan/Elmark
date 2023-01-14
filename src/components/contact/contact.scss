@@ -1,11 +1,12 @@
-@import "../../styles/variables.scss";
+@import "../../styles/index"; 
+
 
 #contact{
     margin-bottom: 100px;
     
     form{
         margin-top: 40px;
-    
+        text-align: center;
 
     button{
         background-color: $gold;
@@ -14,6 +15,39 @@
         font-size: 20px;
         padding: 10px 20px !important;
         font-weight: 800;
+        width: 400px;
+        border: 2px solid $gold;
+
+        &:hover{
+            background-color: transparent;
+            color: $gold;
+        
+        }
+
+        
+        @include for-Extra-Small-devices{
+            width: 100%;
+            font-size: 15px;
+        }
+        @include for-Small-devices{
+            width: 100%;
+            font-size: 18px;
+        }
+
+        @include for-Medium-devices{
+            width: auto;
+            font-size: 20px;
+            font-weight: 700;
+            width: 200px;
+        } 
+
+
+        @include for-Large-devices{
+            width: auto;
+            font-size: 22px;
+            font-weight: 700;
+            width: 300px;
+        } 
     }
 
     .form-control {

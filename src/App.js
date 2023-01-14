@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/style.scss";
+import "./styles/_index.scss";
 import Header from "./components/header/header";
 import Carusel from "./components/carusel/carusel";
 import Abouth from "./components/abouth/abouth";

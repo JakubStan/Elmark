@@ -27,20 +27,20 @@ const AGD = () => {
             </h3>
           </div>
 
-          <Row className="details flex-center">
-            <Col sm={2} className="center">
+          <Row className="details">
+            <Col sm={4} className="center">
               <img src={Zelmer} className="brands" alt="Zelmer" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={Bosch} className="brands" alt="Bosch" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} className="center">
               <img src={Delonghi} className="brands" alt="Delonghi" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={6} className="center">
               <img src={Irobot} className="brands" alt="Irobot" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={6} className="center">
               <img src={Tefal} className="brands" alt="Tefal" />
             </Col>
           </Row>

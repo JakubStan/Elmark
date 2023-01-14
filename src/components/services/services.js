@@ -20,31 +20,29 @@ const Services = () => {
     <>
       <div id="services" className="section-space">
         <Container>
-          <Row>
-            <h2>USŁUGI</h2>
-            <hr></hr>
-          </Row>
+          <h2>USŁUGI</h2>
+          <hr></hr>
 
           <Row>
-            <Col sm={4}>
+            <Col sm={12}>
               <div className="ServiveName">
                 <GiReceiveMoney />
                 <h3>Punkt przyjmowania opłat</h3>
               </div>
 
               <p className="details">
-                U nas możesz również opłacić wszystkie swoje rachunki za jedyne
-                2,50zł bez wypełniania zbędnych druków wpłat.
+                U nas możesz opłacić wszystkie swoje rachunki za jedyne 2,50 zł
+                bez wypełniania zbędnych druków wpłat.
               </p>
             </Col>
 
-            <Col sm={4}>
+            <Col sm={12}>
               <div className="ServiveName">
                 <TbTruckDelivery />
                 <h3>Punkt usług kurierskich</h3>
               </div>
               <p className="details">
-                W naszym punkcie również nadasz i odbierzesz paczkę oraz list,
+                W naszym punkcie nadasz i odbierzesz paczkę oraz list;
                 współpracujemy między innymi:
               </p>
 
@@ -67,14 +65,14 @@ const Services = () => {
               </Row>
             </Col>
 
-            <Col sm={4}>
+            <Col sm={12}>
               <div className="ServiveName">
                 <GiEnvelope />
                 <h3>Agencja pocztowa</h3>
               </div>
               <p className="details">
-                Jesteśmy również agencją Poczty Polskiej nadasz i odbierzesz
-                listy, przesyłki polecone, paczki zagraniczne.
+                Jesteśmy agencją Poczty Polskiej nadasz i odbierzesz listy;
+                przesyłki polecone, paczki zagraniczne.
               </p>
               <Col className="CompanyLogos" sm={12}>
                 <img src={PocztaPolska} alt="PocztaPolska" />

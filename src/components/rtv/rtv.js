@@ -28,22 +28,22 @@ const RTV = () => {
           </div>
 
           <Row className="details">
-            <Col sm={2} className="center">
+            <Col sm={4} md={4} className="center">
               <img src={Samsung} className="brands" alt="Samsung" />
             </Col>
-            <Col sm={2} className="center">
-              <img src={Lg} className="brands" alt="Lg" />
+            <Col sm={4} md={4} className="center">
+              <img src={Lg} md={4} className="brands" alt="Lg" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} md={4} className="center">
               <img src={Sony} className="brands" alt="Sony" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} md={4} className="center">
               <img src={xiaomi} className="brands" alt="Xiaomi" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} md={4} className="center">
               <img src={philips} className="brands" alt="Philips" />
             </Col>
-            <Col sm={2} className="center">
+            <Col sm={4} md={4} className="center">
               <img src={JBL} className="brands" alt="JBL" />
             </Col>
           </Row>

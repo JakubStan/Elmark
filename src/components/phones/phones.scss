@@ -1,10 +1,24 @@
-@import "../../styles/style.scss"; 
+@import "../../styles/index"; 
+
+ 
 
 #phones{
     
     #SmartPhones{
         width: auto;
         height: 400px;
+        margin-top: 20px;
+
+        @include for-Extra-Small-devices{
+            height: 140px;
+        }
+        @include for-Small-devices{
+            height: 190px;
+        }
+
+        @include for-Medium-devices{     
+            height: 240px;     
+         }
     }
 
     .center{

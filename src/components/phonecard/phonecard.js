@@ -21,21 +21,21 @@ const Phonecard = () => {
             <AiFillCreditCard />
             <h3>
               Sprzedaż wszystkich doładowań telefonicznych oraz Paysafecard.
-              Sprzedaż oraz rejestracja kart Sim
+              Sprzedaż oraz rejestracja kart SIM
             </h3>
           </div>
 
           <Row className="details">
-            <Col sm={3}>
+            <Col sm={3} className="center">
               <img src={TMOBILE} className="brands" alt="TMOBILE" />
             </Col>
-            <Col sm={3}>
+            <Col sm={3} className="center">
               <img src={VIRGIN} className="brands" alt="VIRGIN" />
             </Col>
-            <Col sm={3}>
+            <Col sm={3} className="center">
               <img src={PLAY} className="brands" alt="PLAY" />
             </Col>
-            <Col sm={3}>
+            <Col sm={3} className="center">
               <img src={paysafecard} className="brands" alt="paysafecard" />
             </Col>
           </Row>

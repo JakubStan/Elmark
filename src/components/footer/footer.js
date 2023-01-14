@@ -27,7 +27,7 @@ const Footer = () => {
       <footer>
         <Container>
           <Row>
-            <Col sm={4}>
+            <Col md={4} sm={12}>
               <img src={Logo} alt="Elmark Profesjonalny sklep i usługi" />
 
               <ul>
@@ -35,7 +35,7 @@ const Footer = () => {
                   <BiMap />
                   <div>
                     <p>Rynek 8</p>
-                    <p>34-700 Rabka Zdrój</p>
+                    <p>34-700 Rabka-Zdrój</p>
                   </div>
                 </li>
 
@@ -64,106 +64,74 @@ const Footer = () => {
               </ul>
             </Col>
 
-            <Col sm={4}>
+            <Col md={4} sm={12}>
               <h4>OFERTA</h4>
               <ul>
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#rtv">RTV</a>
-                  </p>
+                  <a href="#rtv">RTV</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#agd">AGD</a>
-                  </p>
+                  <a href="#agd">AGD</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#monitoring">MONITORING FIRM ORAZ POSESJI</a>
-                  </p>
+                  <a href="#monitoring">MONITORING FIRM ORAZ POSESJI</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#tv">TELEWIZJA</a>
-                  </p>
+                  <a href="#tv">TELEWIZJA</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#phones">TELEFONY</a>
-                  </p>
+                  <a href="#phones">TELEFONY</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#hardwares">KOMPUTERY</a>
-                  </p>
+                  <a href="#hardwares">KOMPUTERY</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#consoles">KONSOLE</a>
-                  </p>
+                  <a href="#consoles">KONSOLE</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#caraudio">CAR AUDIO</a>
-                  </p>
+                  <a href="#caraudio">CAR AUDIO</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#services">USŁUGI POCZTOWE I KURIERSKIE</a>
-                  </p>
+                  <a href="#services">USŁUGI POCZTOWE I KURIERSKIE</a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="#services">PRZYJMOWANIE WPŁAT</a>
-                  </p>
+                  <a href="#services">PRZYJMOWANIE WPŁAT</a>
                 </li>
               </ul>
             </Col>
 
-            <Col sm={4}>
+            <Col md={4} sm={12}>
               <h4>POLECAMY</h4>
               <ul>
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="https://kotwicamrzezyno.pl/">
-                      www.kotwicamrzezyno.pl
-                    </a>
-                  </p>
+                  <a href="https://kotwicamrzezyno.pl/">
+                    www.kotwicamrzezyno.pl
+                  </a>
                 </li>
 
                 <li>
                   <BsCheckLg />
-                  <p>
-                    <a href="http://www.polsatbox.pl/">www.polsatbox.pl</a>
-                  </p>
-                </li>
-                <li>
-                  <BsCheckLg />
-                  <p>
-                    <a href="https://www.topdietetyk.pl/">
-                      www.topdietetyk.pl/
-                    </a>
-                  </p>
+                  <a href="http://www.polsatbox.pl/">www.polsatbox.pl</a>
                 </li>
               </ul>
             </Col>
@@ -172,11 +140,11 @@ const Footer = () => {
           <Row className="footer-bottom">
             <hr></hr>
 
-            <Col sm={6}>
+            <Col md={6} sm={12} className="center">
               <h5>Wykonanie: Jakub Stankiewicz</h5>
             </Col>
 
-            <Col sm={6}>
+            <Col md={6} sm={12} className="center">
               <h5>
                 Copyright &nbsp;
                 <AiOutlineCopyrightCircle />

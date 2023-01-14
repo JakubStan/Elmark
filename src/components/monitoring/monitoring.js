@@ -24,7 +24,7 @@ const Monitoring = () => {
             <h3>Kamery, rejestratory, systemy alarmowe</h3>
           </div>
 
-          <Row className="details flex-center">
+          <Row className="details">
             <Col sm={3} className="center">
               <img src={hikvision} className="brands" alt="Hikvision" />
             </Col>

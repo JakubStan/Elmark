@@ -23,39 +23,39 @@ const CreditCards = () => {
           <hr></hr>
 
           <Row>
-            <Col sm={6}>
+            <Col sm={12}>
               <div className="ServiveName">
                 <BsFillCreditCard2BackFill />
                 <h3>Akceptujemy karty płatnicze: </h3>
               </div>
 
               <Row className="details">
-                <Col sm={3}>
+                <Col sm={3} md={3} className="center">
                   <img src={VISA} className="brands" alt="VISA" />
                 </Col>
-                <Col sm={3}>
+                <Col sm={3} md={3} className="center">
                   <img src={MASTERCARD} className="brands" alt="MASTERCARD" />
                 </Col>
-                <Col sm={3}>
+                <Col sm={3} md={3} className="center">
                   <img src={MAESTRO} className="brands" alt="MAESTRO" />
                 </Col>
-                <Col sm={3}>
+                <Col sm={3} md={3} className="center">
                   <img src={BLIK} className="brands" alt="BLIK" />
                 </Col>
               </Row>
             </Col>
 
-            <Col sm={6}>
+            <Col sm={12}>
               <div className="ServiveName">
                 <BsBank />
                 <h3>Sprzedaż ratalna:</h3>
               </div>
 
               <Row className="details">
-                <Col sm={6}>
+                <Col sm={6} className="center">
                   <img src={santander} className="brands" alt="santander" />
                 </Col>
-                <Col sm={6}>
+                <Col sm={6} className="center">
                   <img
                     src={creditagricole}
                     className="brands"

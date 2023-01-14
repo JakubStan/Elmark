@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "./carusel.scss";
 import RTV from "./sliders/RTV.png";
 import AGD from "./sliders/AGD.png";
-import SecuritySsystems from "./sliders/SecuritySsystems.png";
+import SecuritySystems from "./sliders/SecuritySystems.png";
 import Phons from "./sliders/Phons.png";
 import TV from "./sliders/TV.png";
 import PC from "./sliders/PC.png";
@@ -23,7 +23,7 @@ const Carusel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={SecuritySsystems}
+              src={SecuritySystems}
               alt="Third slide"
             />
           </Carousel.Item>

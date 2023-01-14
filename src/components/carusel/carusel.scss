@@ -1,9 +1,30 @@
-@import "../../styles/style.scss"; 
+@import "../../styles/index"; 
 
 #carusel{
-    margin-top: 90px;
+    margin-top: 70px;
+
+    @include for-Medium-devices {
+        margin-top: 70px; 
+    }
+
     img{
         height: 100vh;
+        width: auto;
+        @include for-Extra-Small-devices{
+            height: 50vh;
+        }
+
+        @include for-Small-devices {
+            height: 50vh;
+        }
+
+        @include for-Medium-devices{     
+            height: 50vh;     
+        }
+
+         @include for-Large-devices{     
+            height: 80vh;     
+        }
     }
 
     .carousel-indicators{

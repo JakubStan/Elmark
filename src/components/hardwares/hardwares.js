@@ -24,23 +24,38 @@ const Hardwares = () => {
           <div className="ServiveName">
             <MdOutlineComputer />
             <h3>
-              Laptopy, komputery stacjonarne, tablety, drukarki, routery, pamici
-              itp
+              Laptopy, komputery stacjonarne, tablety, drukarki, routery,
+              pamięci itp.
             </h3>
           </div>
 
-          <div className="flex-center details ">
-            <img src={acer} className="brands" alt="Acer" />
-            <img src={asus} className="brands" alt="Asus" />
-            <img src={tplink} className="brands" alt="Tp Link" />
-            <img src={lenovo} className="brands" alt="Lenowo" />
-          </div>
-          <div className="flex-center details">
-            <img src={apple} className="brands" alt="Apple" />
-            <img src={canon} className="brands" alt="Canon" />
-            <img src={brother} className="brands" alt="brother" />
-            <img src={hp} className="brands" alt="HP" />
-          </div>
+          <Row className="details ">
+            <Col sm={3} className="center">
+              <img src={acer} className="brands" alt="Acer" />
+            </Col>
+            <Col sm={3} className="center">
+              <img src={asus} className="brands" alt="Asus" />
+            </Col>
+            <Col sm={3} className="center">
+              <img src={tplink} className="brands" alt="Tp Link" />
+            </Col>
+            <Col sm={3} className="center">
+              <img src={lenovo} className="brands" alt="Lenowo" />
+            </Col>
+
+            <Col sm={3} className="center">
+              <img src={apple} className="brands" alt="Apple" />
+            </Col>
+            <Col sm={3} className="center">
+              <img src={canon} className="brands" alt="Canon" />
+            </Col>
+            <Col sm={3} className="center">
+              <img src={brother} className="brands" alt="brother" />
+            </Col>
+            <Col sm={3} className="center">
+              <img src={hp} className="brands" alt="HP" />
+            </Col>
+          </Row>
         </Container>
       </div>
     </>
