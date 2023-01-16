@@ -22,21 +22,23 @@ const App = () => {
   return (
     <>
       <Header />
-      <Carusel />
-      <Abouth />
-      <Rtv />
-      <AGD />
-      <Monitoring />
-      <TV />
-      <Hardwares />
-      <Consoles />
-      <CarAudio />
-      <Phones />
-      <Phonecard />
-      <Services />
-      <CreditCards />
-      <Contact />
-      <Map />
+      <main>
+        <Carusel />
+        <Abouth />
+        <Rtv />
+        <AGD />
+        <Monitoring />
+        <TV />
+        <Hardwares />
+        <Consoles />
+        <CarAudio />
+        <Phones />
+        <Phonecard />
+        <Services />
+        <CreditCards />
+        <Contact />
+        <Map />
+      </main>
       <Footer />
     </>
   );
