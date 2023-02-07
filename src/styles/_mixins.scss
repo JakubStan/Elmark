@@ -23,8 +23,16 @@
   }
 
   @mixin for-Extra-Large-devices {
-    @media (max-width: $Xl) {
+    @media (min-width: $Xl) and (max-width: $Xxl) {
       @content;
     }
   }
+
+  
+  @mixin for-ExtraExtraLarge-devices {
+    @media (min-width: $Xxl)  {
+      @content;
+    }
+  }
+  
   

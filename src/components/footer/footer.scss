@@ -36,21 +36,18 @@ footer{
         h4{ 
             font-weight: 600 !important; 
             text-align: left;
-            @include for-Extra-Small-devices{
-                margin-top: 0.5rem;
-                margin-bottom: 0.5rem;
-                text-align: center;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+
+            @include for-Extra-Small-devices{     
+               text-align: center;
             }
 
             @include for-Small-devices{
-                margin-top: 0.5rem;
-                margin-bottom: 0.5rem;
                 text-align: center;
             }
 
             @include for-Medium-devices{
-                margin-top: 0.5rem;
-                margin-bottom: 0.5rem;
                 text-align: left;
             } 
         }
@@ -90,8 +87,7 @@ footer{
 
             li{
                 display: flex;
-                align-items: center;
-             
+                align-items: center;            
                 
                 
             @include for-Medium-devices{
@@ -106,15 +102,8 @@ footer{
                 svg{
                     color: $gold;
                     margin-right: 10px;
-                    @include for-Extra-Small-devices{
-                        font-size: 12px;
-                    }
-                    @include for-Small-devices{
-                        font-size: 12px;
-                    }
-                    @include for-Medium-devices{
-                        font-size: 12px !important;
-                    }
+                    font-size: 12px;        
+                
                     
                     @include for-Large-devices{
                         font-size: 15px !important;
@@ -153,6 +142,17 @@ footer{
         margin: 20px 0px;
         font-weight: 600;
 
+        a{ 
+            color: white;
+            margin-left: 2px;
+            font-size: 13px;
+            font-weight: 700;
+            
+            &:hover{
+                color: $gold;                
+            }
+        }
+
         svg{
             margin: 0px;
             @include for-Extra-Small-devices{
@@ -169,6 +169,7 @@ footer{
         .col-sm-12{
             padding-top: 10px;
             padding-bottom: 10px;
+            align-items: center;
         }
 
         h5{

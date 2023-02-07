@@ -8,23 +8,13 @@
     }
 
     img{
-        height: 100vh;
-        width: auto;
-        @include for-Extra-Small-devices{
-            height: 50vh;
-        }
+        height: auto;
+        width: 100%;
 
-        @include for-Small-devices {
-            height: 50vh;
-        }
-
-        @include for-Medium-devices{     
-            height: 50vh;     
-        }
-
-         @include for-Large-devices{     
-            height: 80vh;     
-        }
+        @include for-ExtraExtraLarge-devices  {
+            height: 100vh;
+            width: 100%;
+        }                 
     }
 
     .carousel-indicators{
@@ -37,7 +27,7 @@
         width: 40px;
         height: 40px;
         
-      }
+    }
     
     .carousel-control-prev,  .carousel-control-next{
         opacity: inherit;
@@ -45,6 +35,6 @@
 
     .carousel-control-prev-icon, .carousel-control-next-icon {
         background-size: 50% 100%;
-      }
+    }
 }
 

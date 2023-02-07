@@ -12,7 +12,7 @@ const Header = () => {
       <header>
         <div className="container">
           <Navbar className="navbar" expand="lg">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
               <img src={Logo} alt="Elmark Profesjonalny sklep i usługi" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

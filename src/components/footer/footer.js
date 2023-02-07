@@ -133,6 +133,10 @@ const Footer = () => {
                   <BsCheckLg />
                   <a href="http://www.polsatbox.pl/">www.polsatbox.pl</a>
                 </li>
+                <li>
+                  <BsCheckLg />
+                  <a href="https://www.topdietetyk.pl/">www.topdietetyk.pl</a>
+                </li>
               </ul>
             </Col>
           </Row>
@@ -141,7 +145,8 @@ const Footer = () => {
             <hr></hr>
 
             <Col md={6} sm={12} className="center">
-              <h5>Wykonanie: Jakub Stankiewicz</h5>
+              <h5>Wykonanie:</h5>
+              <a href="https://jstankiewicz.pl/"> jstankiewicz.pl</a>
             </Col>
 
             <Col md={6} sm={12} className="center">
